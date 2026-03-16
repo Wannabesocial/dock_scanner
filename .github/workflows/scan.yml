@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'storm:latest'
+          default: 'google/cloud-sdk:slim'
 
 # env:
 #   REGISTRY: ghcr.io
